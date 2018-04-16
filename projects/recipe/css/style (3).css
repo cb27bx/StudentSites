@@ -1,0 +1,35 @@
+body {
+
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+ h1 {
+font-family: 'Montserrat', sans-serif;
+ }
+.page-title {
+  font-family: 'Bangers', cursive;
+  font-size:45px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  color:black;
+}
+.recipe-title {
+  font-family: 'Bangers', cursive;
+  font-size:28px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  color:black;
+}
+.recipe-container {
+  width:100%;
+  margin-top:0px;
+}
+.recipe-image {
+  width: 250px;;
+}
+.social-container {
+  width:100%;
+  text-align:center;
+}
+.social {
+  width:25px;
+  height:auto;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Forms</title>
+    <style>
+    	* {
+    		margin: 0;
+    		padding: 0;
+    	}
+		body {
+			font: 87.5% Arial, Helvetica, sans-serif;
+			width: 500px;
+		    margin: 20px auto;
+		    padding: 20px;
+		    border: 2px solid blue;
+		}
+		h1 {
+			color: blue; 
+			font-size: 140%;
+		}
+		h2 {
+			font-size: 115%;
+			padding: .5em 0;
+		}
+		label {
+			color: blue;
+			float: left;
+			width:8em;
+			font-weight: bold;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+		}
+		input[type="checkbox"] {
+			width: 1em;
+		}
+		input:required, input:invalid {
+			box-shadow: none;
+		}
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue; }
+		#button {
+			margin-left: 9em;
+		}
+	</style>
+</head>
+
+<body>
+<form>
+    <h1> Please Complete our survey</h1>
+<h2>Contact Information</h2>
+
+<label> Email address:</label>
+<input type="text" name="emailaddress"><br>
+<label> First Name:</label>
+<input type="text" name="firstname"><br>
+<label> Last Name:</label>
+<input type="text" name="lastname"><br>
+
+<h2>Geographic Information</h2>
+<label>State:</label>
+<input type="text" placeholder="Two characters" name="state" maxlength="2"><br>
+<label> Zip Code:</label>
+<input type="number" placeholder="Five digits" name="zipcode" maxlength="5" ><br>
+
+<h2>How did you hear about us?</h2>
+<label> Web Search:</label>
+<input type="checkbox" name="websearch"><br>
+<label> Facebook:</label>
+<input type="checkbox" name="facebook"><br>
+<label> Twitter:</label>
+<input type="checkbox" name="twitter"><br>
+<label> Email message:</label>
+<input type="checkbox" name="emailmessage"><br>
+
+<h2>Thank you for taking our survey!</h2>
+<input id="button" name="submit" type="submit">
+<input id="reset" value="Reset" name="reset" type="button">
+
+
+</form>
+</body>
+</html>

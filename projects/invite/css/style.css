@@ -1,0 +1,94 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  /*Full Page Background Recipe*/
+  background: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  font-family: 'Cinzel', serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px; 
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Vast Shadow', cursive; ;
+  color: #c22726;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/*
+ * Hero Styles
+*/
+.hero{
+  background:#e9e1c7;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background: url('../images/chalkboard.jpg');
+  color:#fff;
+}
+
+a{
+  color:#c22726;
+  text-decoration:none; 
+}
+
+.contact{
+  background:#e9e1c7;
+  color:#000; 
+}
+
+.intro{
+  padding-left: 15px;
+}
+
+footer{
+  background: url('../images/chalkboard.jpg');
+  color:#fff;
+  text-align: center;
+}
+

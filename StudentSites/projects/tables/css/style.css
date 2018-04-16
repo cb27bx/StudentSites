@@ -1,0 +1,74 @@
+body {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+   h1 {
+  font-family: 'Montserrat', sans-serif;
+   }
+  .page-title {
+    font-family: 'Bangers', cursive;
+    font-size:45px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    color:black;
+  }
+  .table-title {
+    font-family: 'Bangers', cursive;
+    font-size:28px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    color:black;
+  }
+  .table-container {
+    width:100%;
+    margin-top:0px;
+  }
+  .table-image {
+    width: 250px;;
+  }
+  .social-container {
+    width:100%;
+    text-align:center;
+  }
+  .social {
+    width:25px;
+    height:auto;
+  }
+
+table {
+    width:100%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+thead, tbody, tr {
+    width:100%;
+}
+
+
+tr, td {
+    width:25%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.rank {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
