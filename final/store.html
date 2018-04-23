@@ -5,78 +5,102 @@
 <title>YDKSAB</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">	
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
-		<div class="topnav" id="myTopnav">
-				<a href="index.html" class="active">Home</a>
-				<a href="about.html">About</a>
-				<a href="store.html">Store</a>
-				<a href="gallery.html">Gallery</a>
-				<a href="contact.html">Contact</a>
-				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-			</div>
+		<nav class="navbar navbar-expand-lg navbar-dark-custom bg-dark-custom">
+				<a class="navbar-brand" href="#">YDKSAB</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <img class="menu-icon" src="http://chittagongit.com/images/hamburger-menu-icon-png/hamburger-menu-icon-png-29.jpg">
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="store.html">Store</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</div>
+			  </nav>
 
 			<img class="navimage" src="images/YDKSAB Banner.jpg" alt="headerbanner">
 		
 <div class="main-container">
 
 		<h1 class="welcome">Store</h1>
-		<table id="storeitems">
-		   <thead>
-			   <tr>
-				   <th>Image</th>	
-				   <th>Item</th>
-				   <th>Cost</th>
-				   <th>Reviews</th>
-				   <th>Action</th>
-			   </tr>
-			</thead>
-			
-		   <tbody>
-			   <tr>
-				   <td><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/boxing/cabinet/img65757309.jpg" height="100" width="100"></td>
-			   <td>Gloves</td>
-			   <td>$300</td>
-				   <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-				   </td>
-				   <td><button>Add To Cart</button></td>
-			   </tr>
-			   <tr>
-				   <td><img src="https://images-na.ssl-images-amazon.com/images/I/51A2S28EeML._SY463_.jpg" height="100" width="100"></td>
-			   <td>Headgear</td>
-			   <td>$300</td>
-				   <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-				   </td>
-				   <td><button>Add To Cart</button></td>
-			   </tr>
-			   <tr>
-				   <td><img src="https://cdn3.bigcommerce.com/s-ob1gxw6h/products/878/images/800/634923-604-reflect__66323.1464123528.1280.1280.jpg?c=2" height="100" width="100"></td>
-			   <td>Shoes</td>
-			   <td>$100</td>
-				   <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-					   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
-				   </td>
-				   <td><button>Add To Cart</button></td>
-			   </tr>
-			</tbody>
-		</table>
+
+		<table class="table">
+				<thead>
+				  <tr>
+						<th scope="col">Image</th>	
+						<th scope="col">Item</th>
+						<th scope="col" class="hide-column">Cost</th>
+						<th scope="col" class="hide-column">Reviews</th>
+						<th scope="col" class="hide-column">Action</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+						<td><img class="table-image" src="https://thumbnail.image.rakuten.co.jp/@0_mall/boxing/cabinet/img65757309.jpg" height="100" width="100"></td>
+						<td>Gloves</td>
+						<td>$300</td>
+							<td class="hide-column"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+							</td>
+							<td class="hide-column"><button>Add To Cart</button></td>
+				  </tr>
+				  <tr>
+						<td><img class="table-image" src="https://images-na.ssl-images-amazon.com/images/I/51A2S28EeML._SY463_.jpg" height="100" width="100"></td>
+						<td>Headgear</td>
+						<td>$300</td>
+							<td class="hide-column"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+							</td>
+							<td class="hide-column"><button>Add To Cart</button></td>
+				  </tr>
+				  <tr>
+						<td><img class="table-image" src="https://cdn3.bigcommerce.com/s-ob1gxw6h/products/878/images/800/634923-604-reflect__66323.1464123528.1280.1280.jpg?c=2" height="100" width="100"></td>
+						<td>Shoes</td>
+						<td>$100</td>
+							<td class="hide-column"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png" height="25" width="25">
+							</td>
+							<td class="hide-column"><button>Add To Cart</button></td>
+				  </tr>
+				</tbody>
+			  </table>
+
+
+	
 </div>
 
 			
 		<footer id="footer">
-			<p>Created by Chris Bernard for IT-3400 Final Project : YDKSAB</p>
+			<p>Created by Chris Bernard</p>
 			<p>
 				<a href="mailto:cbernard1643@sfc.edu">
 					<img src="images/email-icon.png" width="32" height="32"></a>
@@ -89,58 +113,3 @@
 
 
 </body></html>
-
-
-<!--<!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>YDKSAB</title>
-		<link href="css/normalize.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="scripts/script.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-</head>
-
-<body>
-	<div id="container">
-
-	  <header id="header">
-		<h1><img src="images/YDKSAB Banner.jpg" width="1000" height="150" alt="headerbanner"></h1>
-		<h2>Here for all your boxing needs! </h2>
-	  </header>
-		
-		
-	  <nav id="navbar">
-		<ul>
- <li><a href="index.html">Home</a></li>
-		  <li><a href="about.html">About</a></li>
-		  <li><a href="store.html"> Store</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	  </nav>
-		
-		 <div id="store">
-			
-		
-	  </div>
-		
-
-
-		<footer id="footer">
-			<p>Created by Chris Bernard for IT-2410 Final Project : YDKSAB</p>
-			<p>
-				<a href="mailto:cbernard1643@sfc.edu">
-					<img src="images/email-icon.png" width="32" height="32"></a>
-				<a href="https://www.facebook.com/christopher.bernard.1217">
-					<img src="images/social-facebook.png" width="32" height="32" alt=""></a>
-				<a href="https://www.instagram.com/chris_bernard93/"> 
-					<img src="images/social-instagram.png" width="32" height="32" alt=""></a>
-			</p>
-		</footer>
-	</div>
-
-
-
-	 
-</body></html>-->

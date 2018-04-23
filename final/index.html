@@ -5,18 +5,41 @@
 <title>YDKSAB</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">	
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-		<div class="topnav" id="myTopnav">
-				<a href="index.html" class="active">Home</a>
-				<a href="about.html">About</a>
-				<a href="store.html">Store</a>
-				<a href="gallery.html">Gallery</a>
-				<a href="contact.html">Contact</a>
-				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-			</div>
+		<nav class="navbar navbar-expand-lg navbar-dark-custom bg-dark-custom">
+				<a class="navbar-brand" href="#">YDKSAB</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <img class="menu-icon" src="http://chittagongit.com/images/hamburger-menu-icon-png/hamburger-menu-icon-png-29.jpg">
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="store.html">Store</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</div>
+			  </nav>
+
 
 			<img class="navimage" src="images/YDKSAB Banner.jpg" alt="headerbanner">
 		
@@ -29,7 +52,7 @@
 
 			
 		<footer id="footer">
-			<p>Created by Chris Bernard for IT-3400 Final Project : YDKSAB</p>
+			<p>Created by Chris Bernard</p>
 			<p>
 				<a href="mailto:cbernard1643@sfc.edu">
 					<img src="images/email-icon.png" width="32" height="32"></a>
